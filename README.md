@@ -95,8 +95,4 @@ The script handles bad input without crashing:
 
 The troubleshooting-agent prompt is in [`task02_prompt.md`](task02_prompt.md). It defines the agent's role, scope, protocol expertise, vendor command equivalents, troubleshooting methodology, safety rules, and response format. It includes input placeholders for vendor/platform, topology, symptoms, recent changes, and available evidence.
 
-## Notes
 
-- The sample configuration files were copied from the assignment appendix.
-- The generated workbook is included in `output/` and can be regenerated with the command above.
-- No network devices are contacted; the script works entirely from configuration files on disk.
